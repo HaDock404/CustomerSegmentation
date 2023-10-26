@@ -1,0 +1,2 @@
+Unnamed: 0,Model_name,Time,Silhouette_score,Coef_distortion,Davies-bouldin
+,k_means,0.335543155670166,0.40810942777599996,98799.86666324265,0.686532133868721
