@@ -22,7 +22,7 @@ def AllScore_function(scoring_function):
 
     Return :
     """
-    df = pd.read_csv('../Data/0.global_scoring.csv', index_col=0)
+    df = pd.read_csv('../Data/0.global_scoring.csv')
     df = df.reset_index(drop=True)
     scoring_function = scoring_function.reset_index(drop=True)
     df = pd.concat([df, scoring_function], ignore_index=True)
